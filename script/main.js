@@ -3,3 +3,4 @@ function isOdd(number) {
 };
 
 console.log(isOdd(21));
+
