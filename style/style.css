@@ -1,23 +1,17 @@
-strong,
-em {
-    color: #a60000;
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a {
-    color: #ff0000;
-  }
-  
-a:hover,
-a:visited,
-a:focus {
-    color: #a60000;
-    text-decoration: none;
-  }
-  
-a:active {
-    color: #000000;
-    background-color: #a60000;
-  }
+.navbar {
+  margin-top: -50px;
+  background-color: #abdf5cec;
+  width: 100%;
+  height: calc(20px + 10vh);
+  font-weight: bolder;
+}
+
 
 picture,
 source,
