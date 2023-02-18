@@ -23,10 +23,37 @@
    
 <picture>
     <source media="(max-width: 799px)" srcset="image/crop.jpg" />
-    <source media="(min-width: 800px)" srcset="image/unspash.jpg" />
+   <!-- <source media="(max-width: 1800px)" srcset="image/unspash.jpg" /> -->
     <img src="image/unsplash.jpg" alt="Sheep herding">
 </picture>
+<br>
 
+<form id="age" action="">
+    <label for="age">Find out what category you are: <br>
+        <input type="text" id="text" class="text">
+    </label>
+    <br>
+    <br>
+    <label for="submit">
+        <button type="button" id="submit" class="submit">SUBMIT</button>
+    </label>
+    <label for="output">
+        <h3 id="result"></h3>
+    </label>
+</form>
+<br>
+<div id="container">
+    <h4>Shopping list : </h4>
+    <form action="" id="form">
+      <input type="text" name="data" id="data">
+      <button type="submit" class="submit">SUBMIT</button>
+      <h3 id="display-list">lists</h3>
+    </form>
+  </div>
+<br>
+<footer class="footer">
+<p>All rights reserved. 2023</p>
+</footer>
     <script src="script/main.js"></script>
 </body>
 </html>
